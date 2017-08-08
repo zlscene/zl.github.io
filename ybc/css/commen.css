@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/*------TOP:样式重置------*/
+article,nav,aside,header,footer,section,menu{display:block;outline:0;vertical-align:baseline;background:transparent;}
+html,body,article,nav,aside,header,footer,section,menu,div,span,h1,h2,h3,h4,h5,h6,p,a,em,img,dl,dt,dd,ol,ul,li{margin:0;padding:0;border:0;font0-size:100%;}
+body{direction:ltr;font:12px/1.5 'Verdana','Arial','微软雅黑';color:#333;line-height:1;line-height:24px;background:#fff;}
+ul,ol,dl,menu{list-style:none;}
+img,select,input{vertical-align:middle;}
+caption{text-align:left;}
+a{color:#696969;text-decoration:none;outline:none;}
+a:hover{color:#0d5196;text-decoration:none;}
+/*------清除浮动------*/
+.float_l{float:left;}
+.float_r{float:right;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clear{clear:both;}
+/*------公共样式------*/
+.layout{width:1004px;margin:0 auto;}
+.radius{border-radius:4px;behavior:url(ie-css3.htc);}
+/*inline-block布局*/
+.inb,.inb_u{font:12px/1.5 tahoma,arial,'宋体';letter-spacing:-4px;*letter-spacing:normal;*word-spacing:-6px;}
+	.inb_l,.inb_u li{display:inline-block;*zoom:1;*display:inline;letter-spacing:normal;word-spacing:normal;vertical-align:top;}
+.text_c{text-align:center;}
+.text_r{text-align:right;}
+.mar_t{margin-top:15px !important;}
+.padd{padding:10px;}
+.lineH{line-height:30px;}
+.bule{color:#0d5196;}
+/*------头部------*/
+.header{background:url(../images/head.gif) repeat-y center scroll #DBDBDB;padding:25px 0 20px;}
+/*--导航--*/
+.nav{font-size:13px;font-family:'微软雅黑';margin-top:5px;}
+	.nav a{display:block;width:106px;height:40px;line-height:40px;float:left;color:#0d5196;margin:0 7px;text-align:center;}
+.nav a:hover,.current{background:url(../images/nav.gif) no-repeat;color:#fff !important;}
+/*banner*/
+.banner{height:258px;overflow:hidden;position:relative;}
+.banner .layout{height:258px;overflow:hidden;position:relative;}
+	#productMenu{position:absolute;bottom:5px;right:50px;}
+	.menu_yuan li{float:left;background:url(../images/l.gif) no-repeat;width:14px;height:14px;text-align:center;margin-right:3px;color:#fff;text-indent:-9999px;}
+	.menu_yuan li.vary_img{background:url(../images/h.gif) no-repeat;}
+	.tab_c_img{width:100%;height:258px;display:none;}
+	.tab_c_img img{width:100%;height:258px;}
+/*------底部------*/
+.footer{background:#e8e8e8;border-top:1px solid #ccc;padding:30px 0;}
+.sbox{margin:5px 30px 0 10px;width:135px;}
+.search{background:url(../images/search.gif) bottom no-repeat;width:134px;height:22px;}
+	.search input{border:none;background:none;height:18px;line-height:18px;}
+	.text{width:95px;font-size:10px;color:#666;}
+	.but{width:30px;cursor:pointer;}
